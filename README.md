@@ -1,1 +1,2 @@
 # landing-page
+The goal of this project was to make a landing page from scratch, replicating a given template as best as I could. Along with further testing my skills built up with the recipe project, I got to take full advantage of css and flexbox properties. While I personally still feel a little iffy on flexbox, the fact that I was able to persevere and finish this site at all is a feat on its own. While it's not perfect, I came as close to the original template as I could, and I feel pretty good about that.
