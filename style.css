@@ -16,14 +16,6 @@ body {
 
 .header, .footer {
     padding: 16px;
-    justify-content: space-evenly;
-}
-
-.header {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    padding: 10px;
 }
 
 .footer {
@@ -31,7 +23,6 @@ body {
     color: #E5E7EB;
     align-items: center;
     justify-content: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -55,13 +46,92 @@ a {
     color: #E5E7EB;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 360px;
+}
+
 .header .left {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
-
 }
 
 .header .right {
-    font-size: 18px;
+    font-size: 14px;
+}
+
+
+.hero {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.hero .main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.hero .secondary {
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 32px;
+    margin-top: 10px;
+}
+
+.hero .left {
+    width: 400px;
+}
+.hero .right {
+    background-color: #6d747d;
+    width: 400px;
+}
+
+.information .title {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 80px;
+}
+
+.container .cell {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 8px;
+}
+
+.cell img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cell .text {
+    text-align: center;
+    color: #1F2937;
 }
