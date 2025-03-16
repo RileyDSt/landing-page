@@ -135,3 +135,62 @@ a {
     text-align: center;
     color: #1F2937;
 }
+
+.quote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .text {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    width: 680px;
+    justify-content: center;
+}
+
+.quote .citation {
+    font-size: 24px;
+    font-weight: 900;
+    justify-content: flex-end;
+    width: 680px;
+    text-align: right;
+}
+
+.action {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.action .cell {
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 25px 50px;
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action .main {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action .secondary {
+    color: #E5E7EB;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 6px 32px;
+    margin-top: 10px;
+}
